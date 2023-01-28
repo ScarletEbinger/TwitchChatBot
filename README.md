@@ -14,5 +14,5 @@ Twitch chat bot that interacts with an AI on chat, and sends ads at every 5 minu
 
 ### Add your tokens:
 
-# Add your twitch bot user, bot oauth, and desired channel in `config.js`
-# Add your OpenAI API and ORG keys in `config.js`
+### Add your twitch bot user, bot oauth, and desired channel in `config.js`
+### Add your OpenAI API and ORG keys in `config.js`
