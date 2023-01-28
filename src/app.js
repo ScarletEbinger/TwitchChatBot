@@ -45,11 +45,11 @@ async function onMessage(channel, tags, message, self) {
 client.on('message', onMessage); 
 
 setInterval(function(channel = 'altofctrlgg', tags, message, self) { 
-    // Call your API here
-    console.log('sending twitter msg very 2 minutes right now')
-    client.say(channel, 'Siga-nos no twitter: twitter.com/AltOfCtrlGG <3')
-    client.say(channel, 'Entre na nossa comunidade do Discord: discord.gg/Rr8wF7tzRg ')
-    client.say(channel, 'Ja está sabendo das aulas de inglês GRATIS para LGBTQIA+?? não?? corre aqui e saiba mais: https://twitter.com/AltOfCtrlGG/status/1619135260931022848')
+    // Put your ad that will appear every five minutes on "PUT AD HERE"
+    console.log('sending your ad msg very 5 minutes right now')
+    client.say(channel, 'PUT AD HERE')
+    client.say(channel, 'PUT AD HERE')
+    client.say(channel, 'PUT AD HERE')
   }, 300000); // Run every 5 minutes (300000 milliseconds).
 			
 
