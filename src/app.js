@@ -25,9 +25,7 @@ client.connect();
 async function onMessage(channel, tags, message, self) {
 	// Ignore echoed messages.
 	if(self) return;
-   /* let isTheAINameMentioned = false
-    isTheAINameMentioned = message.toLowerCase().includes(AI_NAME) */
-    if (message.startsWith('start, ')) {
+     if (message.startsWith('start, ')) {
         try {
             const question = message.slice(7)
             console.log(question)
