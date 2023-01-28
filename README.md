@@ -2,10 +2,9 @@
 Twitch chat bot that interacts with an AI on chat, and sends ads at every 5 minutes
 ## Pre Requisites
 
-1. node.js
-2. tmi.js
-3. ems
-4. openai
+1. [tmi.js](https://github.com/tmijs/tmi.js/)
+2. [ems](https://github.com/mogill/ems)
+3. [openai](https://github.com/openai/openai-node)
 
 ## Setting up
 
